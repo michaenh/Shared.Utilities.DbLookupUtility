@@ -70,8 +70,7 @@ namespace Shared.Utilities.DbLookupUtility
                         query = Regex.Replace(query, "&gt;", ">");
                         query = Regex.Replace(query, "&lt;", "<");
 
-                        System.Diagnostics.Trace.Write(string.Format("Entering DbLookupUtilityService with query {0} and connection key {1}", query, connectionStringKey));
-                        //_connectionString = "User Id=System;Password=2387Visa;Data Source=(DESCRIPTION =(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST = BTS2013R2DEV)(PORT = 1521)))(CONNECT_DATA =(SERVICE_NAME = XE)))";
+                        System.Diagnostics.Trace.Write(string.Format("Entering DbLookupUtilityService with query {0} and connection key {1}", query, connectionStringKey));                      
                         _connectionString = System.Configuration.ConfigurationManager.ConnectionStrings[connectionStringKey].ConnectionString;
 
                 
