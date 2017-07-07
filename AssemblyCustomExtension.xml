@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExtensionObjects>
+  <ExtensionObject
+          Namespace="http://Shared.Utilities.DbLookupUtility.DbLookupUtility"
+          AssemblyName="Shared.Utilities.DbLookupUtility,
+            Version=1.0.0.0, Culture=neutral,
+            PublicKeyToken=45225121092066c7"
+          ClassName="Shared.Utilities.DbLookupUtility.DbLookupUtilityService"/>
+
+</ExtensionObjects>
